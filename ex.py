@@ -24,4 +24,12 @@ PRINT " HELLO WORLD"
 retournerSixPlusTrois()
 retournerSixPlusX(9)
 print("Hello World !")
+
+add(x,y)
+sub(x,y)
+multiply(x,y)
+divide(x,y)
+modulo(x,y)
+salaireNet(Brut,coefficient)
+salaireParSeconde(salaireHoraire,heureParJourOuvré,nbJoursOuvréParSeconde)
 #FIN
