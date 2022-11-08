@@ -34,3 +34,11 @@ def miniGame(letterResult):
 
 print(miniGame("h"))
 #FIN
+
+prenom = "Gabriel"
+nom = "Nang Ndong"
+identite = nom + prenom #Retourne Nang NdongGabriel
+identite = nom +''+ prenom #Retourne Nang Ndong Gabriel
+
+integerValue = 342 #Retourne 342
+stringIntegrerValue = str(342) #Retourne "342"
