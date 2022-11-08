@@ -42,3 +42,22 @@ identite = nom +''+ prenom #Retourne Nang Ndong Gabriel
 
 integerValue = 342 #Retourne 342
 stringIntegrerValue = str(342) #Retourne "342"
+
+tableau = [0,10,15,5,1]
+#Pour récupere 15 je prends dans tableau l'index 2
+
+print(tableau[2]) #Affiche 15
+
+len(tableau) #Renvoie la longueur de tableau renvoir 5
+
+#Exercie 1 
+#Faire une fonction qui concatene 2 chaines de caractere, les séparants par une virgule
+
+#Exercice 2
+#Faire une fonction qui itère sur tous les index d'un tableau renvoyant une chaine de caractere
+#Avec l'ensemblres des occurences d'un chiffre e.g.:
+#Pour tableau = [0,1,1,1,0,1,1,0,1]
+#la fonction(tableau,0) doit renvoyer "0,4,7" n'hesitez pas à implementer la premiere fonction ,)
+
+#Exercice 3
+#Renvoyer / Afficher un message
