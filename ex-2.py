@@ -52,12 +52,24 @@ len(tableau) #Renvoie la longueur de tableau renvoir 5
 
 #Exercie 1 
 #Faire une fonction qui concatene 2 chaines de caractere, les séparants par une virgule
+def virgule(x,y):
+    motPlusVirgule= x + ',' + '' + y
+    print(motPlusVirgule)
+    return
+print("Gabriel", "Nang Ndong")
 
 #Exercice 2
 #Faire une fonction qui itère sur tous les index d'un tableau renvoyant une chaine de caractere
 #Avec l'ensemblres des occurences d'un chiffre e.g.:
 #Pour tableau = [0,1,1,1,0,1,1,0,1]
 #la fonction(tableau,0) doit renvoyer "0,4,7" n'hesitez pas à implementer la premiere fonction ,)
+tableau=[0,1,1,1,0,1,1,0,1]
 
+def indexTableau(x):
+    print(tableau(x))
+
+indexTableau(1)
 #Exercice 3
 #Renvoyer / Afficher un message
+
+print("Afficher un message")
