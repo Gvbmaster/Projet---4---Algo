@@ -97,3 +97,5 @@ findIndex(tableau, 1)
 #Renvoyer / Afficher un message
 
 print("Afficher un message")
+
+zawarudo
